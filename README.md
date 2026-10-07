@@ -4,10 +4,9 @@ A custom Docker image based on the official [n8n](https://n8n.io/) image with Py
 
 ## Features
 
-- **Base**: `n8nio/n8n:latest`
-- **Python 3** with pip
+- **Base**: `n8nio/n8n:latest` (Alpine Linux)
+- **Python 3** with pip and venv
 - **Python libraries**: `requests`, `pandas`, `numpy`
-- **Build tools**: `make`, `g++`, `gcc`, `python3-dev` (for compiling native extensions)
 
 ## Quick Start
 
